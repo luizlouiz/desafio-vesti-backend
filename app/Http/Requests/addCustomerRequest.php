@@ -24,7 +24,7 @@ class addCustomerRequest extends FormRequest
     public function rules()
     {
         return [
-            'dt_nascimento' => 'date_format:YYYY-mm-dd'
+            'dt_nascimento' => 'date_format:YYYY-mm-dd' //regra de formato (não utilizado)
         ];
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateCustomersTable extends Migration
+class CreateCustomersTable extends Migration   //Arquivo de migration, para criar tabla de clientes no banco
 {
     /**
      * Run the migrations.
@@ -18,7 +18,7 @@ class CreateCustomersTable extends Migration
             $table->string('nome');
             $table->string('email');
             $table->string('telefone');
-            $table->date('dt_nascimento'); 
+            $table->date('dt_nascimento');
             $table->timestamps();
         });
     }
